@@ -1,0 +1,24 @@
+{
+  "name": "webdevportfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/novinary/webdevportfolio.git"
+  },
+  "keywords": [],
+  "author": "Novina Pun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/novinary/webdevportfolio/issues"
+  },
+  "homepage": "https://github.com/novinary/webdevportfolio#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  }
+}

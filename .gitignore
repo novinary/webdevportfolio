@@ -1,0 +1,7 @@
+# Dependency directory
+/node_modules
+
+/dist
+
+# Parcel uses a temp cache directory when building app for development and production.
+/.cache
