@@ -1,5 +1,15 @@
 @import 'variables';
+@import 'home';
+@import 'reset';
 
+* {
+  box-sizing: border-box;
+}
+
+html,
 body {
   background: $color1;
+  font-size: 18px;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  height: 100%;
 }
