@@ -106,3 +106,10 @@ body {
     transform: translate3d(0, 0, 0);
   }
 }
+
+.scroll-section {
+  height: 100vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding: 56px;
+}
