@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <link href="./scss/main.scss" rel="stylesheet" />
   <head>
+    <link href="./scss/main.scss" rel="stylesheet" />
     <link
       href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:100,300,400,500,600,700&display=swap"
       rel="stylesheet"
@@ -16,7 +16,7 @@
     <script src="./js/index.js"></script>
     <title>Document</title>
   </head>
-  <body class="resume">
+  <body class="contact">
     <div class="menu-icon">
       <i class="fa fa-bars" aria-hidden="true"></i>
     </div>
@@ -51,45 +51,35 @@
       </div>
     </section>
     <section class="content-area">
-      <div class="scroll-section">
-        <!-- Eduction section-->
-        <div class="category">
-          <div class="title">
-            <h1>Education</h1>
-          </div>
-          <div class="exp-section">
-            <div class="exp-box">
-              <h5>Bachelor’s degree in Games Technology, 2:1</h5>
-              <p>Coventry University, Coventry, UK</p>
-              <p>September 2012 - April 2015</p>
-            </div>
-            <div class="exp-box">
-              <h5>Full Stack Web Development & Computer Science certificate</h5>
-              <p>Lambda School, Remote</p>
-              <p>January 2019 - September 2019</p>
-            </div>
-            <div class="exp-box">
-              <h5>
-                Distinction Distinction Distinction on National Diploma in Media
-                Games
-              </h5>
-              <p>Basingstoke College of Technology, Basingstoke, UK</p>
-              <p>June 2009 - April 2011</p>
-            </div>
-          </div>
+      <div class="img-container">
+        <div class="form-section">
+          <form action="/" method="POST">
+            <h4>Send a Message</h4>
+            <input type="text" name="name" required placeholder="Name"/>
+            <input type="email" name="email" required placeholder="Email"/>
+            <input type="text" name="budget" placeholder="Budget"/>
+            <textarea name="message" rows="12" required placeholder="Message"></textarea>
+
+            <button type="submit">Send Message</button>
+          </form>
         </div>
-        <!-- Experience section-->
-        <div class="category">
-          <div class="title">
-            <h1>Work Experience</h1>
+      </div>
+      <div class="contact-section">
+        <div class="contact-info">
+          <h1>Contact Me</h1>
+          <div class="contact-box">
+            <h5>Phone</h5>
+            <p>Email me for my number.</p>
           </div>
-          <div class="exp-section">
-            <div class="exp-box">
-              <h5>Implementation Specialist/ SQL Developer</h5>
-              <p>Box-it UK Limited, Winchester, UK</p>
-              <p>November 2015 - December 2018</p>
+          <div class="contact-box">
+              <h5>Email</h5>
+              <p>novina.dev@gmail.com</p>
             </div>
-          </div>
+            <div class="contact-box">
+                <h5>Address</h5>
+                <p>Basingstoke, UK</p>
+              </div>
+            </div>
         </div>
       </div>
     </section>
