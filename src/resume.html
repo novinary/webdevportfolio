@@ -13,7 +13,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <script src="./js/index.js"></script>
     <title>Document</title>
   </head>
   <body class="resume">
@@ -52,29 +51,21 @@
     </section>
     <section class="content-area">
       <div class="scroll-section">
-        <!-- Eduction section-->
+        <!-- Education section-->
         <div class="category">
           <div class="title">
             <h1>Education</h1>
           </div>
           <div class="exp-section">
+              <div class="exp-box">
+                  <h5>Full Stack Web Development & Computer Science certificate</h5>
+                  <p>Lambda School, Remote</p>
+                  <p>January 2019 - September 2019</p>
+                </div>
             <div class="exp-box">
               <h5>Bachelor’s degree in Games Technology, 2:1</h5>
               <p>Coventry University, Coventry, UK</p>
               <p>September 2012 - April 2015</p>
-            </div>
-            <div class="exp-box">
-              <h5>Full Stack Web Development & Computer Science certificate</h5>
-              <p>Lambda School, Remote</p>
-              <p>January 2019 - September 2019</p>
-            </div>
-            <div class="exp-box">
-              <h5>
-                Distinction Distinction Distinction on National Diploma in Media
-                Games
-              </h5>
-              <p>Basingstoke College of Technology, Basingstoke, UK</p>
-              <p>June 2009 - April 2011</p>
             </div>
           </div>
         </div>
@@ -85,13 +76,36 @@
           </div>
           <div class="exp-section">
             <div class="exp-box">
-              <h5>Implementation Specialist/ SQL Developer</h5>
+              <h5>Implementation Specialist</h5>
               <p>Box-it UK Limited, Winchester, UK</p>
-              <p>November 2015 - December 2018</p>
+              <p>July 2017 - December 2018</p>
             </div>
+          <div class="exp-box">
+            <h5>Junior Sql Developer</h5>
+            <p>Box-it UK Limited, Winchester, UK</p>
+            <p>August 2016 - July 2017</p>
+          </div>
+          <div class="exp-box">
+            <h5>Intern Developer</h5>
+            <p>Box-it UK Limited, Winchester, UK</p>
+            <p>November 2015 - August 2016</p>
+          </div>
+        </div>
+        <!-- d3 chart section-->
+        <div class="chart-container">
+          <div class="category">
+           <div class="title">
+              <h1>Technicall Skills</h1>
+            </div>
+            <div class="exp-box">
+              <h5>Represented in years</h5>
+            </div>
+            <div id="chart"></div>
           </div>
         </div>
       </div>
     </section>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="./js/chart.js"></script>
   </body>
 </html>

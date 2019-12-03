@@ -20,6 +20,7 @@
   "homepage": "https://github.com/novinary/webdevportfolio#readme",
   "devDependencies": {},
   "dependencies": {
+    "d3": "^5.14.2",
     "node-sass": "^4.13.0"
   }
 }

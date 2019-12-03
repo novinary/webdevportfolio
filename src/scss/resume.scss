@@ -11,6 +11,12 @@
     height: 100%;
     overflow: hidden;
 
+    .chart-container {
+      text-align: center;
+      #chart {
+        display: inline-block;
+      }
+    }
     .category {
       margin-bottom: 56px;
       h1 {
